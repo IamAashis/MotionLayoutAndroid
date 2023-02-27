@@ -168,7 +168,6 @@
             <PropertySet motion:alpha="1" />
         </Constraint>
 
-
         <Constraint
             android:id="@id/bottom_nav"
             android:layout_width="0dp"
