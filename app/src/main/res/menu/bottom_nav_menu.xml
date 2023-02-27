@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/item_nearBy"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_motion"
+        android:title="Sorts" />
+    <item
+        android:id="@+id/item_cart"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:iconTint="@color/white"
+        android:title="Title" />
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_subscribe"
+        android:iconTint="@color/white"
+        android:title="Subscriptions" />
+    <item
+        android:id="@+id/item_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_library"
+        android:iconTint="@color/white"
+        android:title="Library" />
+</menu>
